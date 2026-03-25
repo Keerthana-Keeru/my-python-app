@@ -5,7 +5,7 @@ pipeline {
     
     stage('Clone') {
       steps {
-        git url: 'https://github.com/Keerthana-Keeru/march10.git',
+        git url: 'https://github.com/Keerthana-Keeru/my-python-app.git',
             branch:'main'
       }
     }
